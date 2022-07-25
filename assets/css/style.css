@@ -560,11 +560,6 @@ a{
     padding: 4px 8px;
 }
 
-/* .social-link .fa-instagram{
-    color: #fff;
-    background: #E1483F;
-} */
-
 .rest-footer .menu-info,
 .rest-footer .menu-policy{
     list-style: none;
@@ -584,7 +579,7 @@ a{
     color: red;
     font-size: 16px;
 }
-
+/* END FOOTER */
 
 /* CSS - DETAIL PRODUCT */
 
@@ -618,7 +613,7 @@ a{
 }
 
 
-/* Start DETAIL-PRODUCT  */
+/* Start DETAIL-PRODUCT - chi tiết sp */
 #content .detail-product{
     margin-bottom: 24px;
 }
@@ -691,7 +686,7 @@ a{
 .mid-intro-detail .cart{
 
 }
-/* Quantity */
+/* Quantity - số lượng */
 .quantity{
     display: flex;
     height: 40px;
@@ -784,9 +779,17 @@ a{
     display: block;
 }
 
+/* Mô tả sản phẩm */
 .desc-detail{
     margin-top: 20px;
     background: #fff;
+}
+.desc-detail .intro-product{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
 }
 
 .desc-detail .product-description{
@@ -796,7 +799,7 @@ a{
 .desc-detail .title-description{
     font-size: 18px;
     margin-bottom: 12px ;
-    padding-top: 12px;
+    padding-top: 16px;
     font-weight: bold;
 }
 
