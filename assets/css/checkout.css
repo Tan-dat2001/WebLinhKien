@@ -6,16 +6,16 @@ body {
     color: #5a5a5a;
   }
   
-  .text-center{
+#content   .text-center{
     padding: 0 !important;
   }
   
-  .info-client{
-    padding: 16px 8px;
+#content  .info-client{
+    padding: 16px 8px ;
     margin-bottom: 24px;
   }
 
-  .order-name{
+#content  .order-name{
     background-color: #ffc107;
     border-color: #ffc107;
     color: #212529;
@@ -23,7 +23,7 @@ body {
 
   }
 
-  .order-name:hover{
+#content .order-name:hover{
     color: #212529;
     background-color: #e0a800;
     border-color: #d39e00;
